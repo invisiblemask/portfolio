@@ -292,7 +292,7 @@ img {
 }
 
 .home_blob-img {
-    width: 170px;
+    width: 250px;
 }
 
 .home_data {
@@ -507,11 +507,11 @@ img {
 }
 
 .skills_js {
-    width: 50%;
+    width: 70%;
 }
 
 .skills_react {
-    width: 70%;
+    width: 80%;
 }
 
 .skills_express {
@@ -519,7 +519,7 @@ img {
 }
 
 .skills_node {
-    width: 40%;
+    width: 60%;
 }
 
 .skills_mongodb {
@@ -531,7 +531,7 @@ img {
 }
 
 .skills_as {
-    width: 40%;
+    width: 80%;
 }
 
 .skills_tad {
@@ -539,11 +539,11 @@ img {
 }
 
 .skills_ds {
-    width: 70%;
+    width: 90%;
 }
 
 .skills_wsm {
-    width: 40%;
+    width: 70%;
 }
 
 .skills_close .skills_list {
@@ -596,6 +596,9 @@ img {
 .qualification_subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
+}
+
+.qualification_subtitle:last-child {
     margin-bottom: var(--mb-1);
 }
 
@@ -816,7 +819,7 @@ img {
 }
 
 .project_img {
-    width: 232px;
+    width: 350px;
     justify-self: center;
 }
 
@@ -1171,9 +1174,9 @@ img {
         width: 450px;
     }
 
-    .portfolio_img {
+    /*.portfolio_img {
         width: 320px;
-    }
+    }*/
 
     .portfolio_content {
         align-items: center;
@@ -1192,7 +1195,7 @@ img {
         background-color: var(--first-color-second);
         border-radius: 1rem;
         padding: 3rem;
-        grid-template-columns: 1fr max-content;
+        grid-template-columns: 1fr;
         column-gap: 3rem;
     }
     
